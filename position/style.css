@@ -132,3 +132,35 @@ input,button,textarea{font-family:inherit;}
 	left: 230px;
 	top: -50px;
 } 
+ .box4{
+	border: 5px solid black;
+	border-style: dotted;
+	width: 	1000px;
+	margin: 100px auto;
+	height: 800px;
+}
+
+.big_block{
+	background-color: #3DE37C;
+	max-width: 800px;
+	height: 700px;
+	margin: 50px auto;
+}
+
+.blockwh{
+	background-color: white;
+  max-width: 150px;
+  height: 150px;
+	position: relative;
+	bottom: 300px;
+	right: -650px;
+}
+
+.blockwh2{
+	background-color: white;
+  max-width: 150px;
+  height: 150px;
+	position: relative;
+	bottom: 800px;
+	right: -200px;
+} 
