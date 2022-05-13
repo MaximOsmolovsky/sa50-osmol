@@ -64,4 +64,38 @@ input,button,textarea{font-family:inherit;}
 	left: 350px;
 	top: 130px;
 }
+.box2{
+	border: 5px solid black;
+	border-style: dotted;
+	width: 100%;
+	margin: 500px auto;
+	height: 400px;
+}
+
+
+.block_1{
+	background-color: #E73560;
+  max-width: 120px;
+  height: 120px;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+.block_2{
+	background-color: #953ACC;
+  max-width: 120px;
+  height: 120px;
+	position: relative;
+	left: 140px;
+}
+
+.block_3{
+	background-color: #3DE37C;
+  max-width: 120px;
+  height: 120px;
+	position: relative;
+	left: 230px;
+	top: -50px;
+}
 
