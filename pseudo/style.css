@@ -1,0 +1,53 @@
+.Z {
+    position: relative;
+    width: 185px;
+    height: 51px;
+    background: linear-gradient(110.62deg, #5D5FEF 20.49%, #7879F1 46.52%, #A5A6F6 78.55%, #A5A6F6 78.55%);
+    border-radius: 26px;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .A {
+    position: relative;
+    width: 185px;
+    height: 51px;
+    background: #A5A6F6;
+    box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
+    border-radius: 26px;
+    top: 30px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .Q{
+    position: relative;
+    width: 185px;
+    height: 51px;
+    background: #5D5FEF;
+    border-radius: 26px;
+    top: 50px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .text{
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    left: 52px;
+    }
+    
