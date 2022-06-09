@@ -29,7 +29,7 @@
     position: relative;
     width: 185px;
     height: 51px;
-    background: #5D5FEF;
+    background: #7576cc;
     border-radius: 26px;
     top: 50px;
     left: 10px;
@@ -51,3 +51,24 @@
     left: 52px;
     }
     
+     
+        .Z:active{
+        background: #5D5FEF;
+        }
+        
+        .A:hover{
+        background-image: url(https://c.tenor.com/Q415UYZlZAYAAAAd/папич-arthas.gif);
+        background-size: cover;
+        }
+        .A:active{
+        background: #5D5FEF;
+        }
+        
+        .Q:focus{
+        outline: none;
+        box-shadow: 0 0 0 3px rgb(0, 0, 0);
+        background-image: url(https://c.tenor.com/Q415UYZlZAYAAAAd/папич-arthas.gif);
+        }
+        .Q:active{
+        background: #5D5FEF;
+        }
