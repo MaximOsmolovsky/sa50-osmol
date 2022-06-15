@@ -1,0 +1,140 @@
+@media all and (max-width: 450px) {
+    *{
+        background-color: #E5E5E5;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 428px;
+        height: 926px;
+        position: relative; 
+    }
+
+    .menu {
+        position: absolute;
+        width: 428px;
+        height: 65px;
+        left: 0px;
+        top: 0px;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .list__item {
+        position: absolute;
+        width: 113px;
+        height: 4px;
+        left: 150px;
+        top: 3px;
+        font-family: Six Caps;
+        font-size: 20px;
+        font-weight: light;
+        color: black;
+    }
+
+    .list__item__link {
+        position: absolute;
+        width: 26px;
+        height: 0px;
+        left: 21px;
+        top: 20px;
+        opacity: 0.5;
+        border: 1px solid #000000;
+        }
+
+    .line1 {
+        position: absolute;
+        width: 26px;
+        height: 0px;
+        left: 21px;
+        top: 20px;
+        background: #000000;
+        opacity: 0.5;
+        border: 1px solid #000000;
+    }
+    .line2 {
+        position: absolute;
+        width: 26px;
+        height: 0px;
+        left: 21px;
+        top: 28px;
+        background: #000000;
+        opacity: 0.5;
+        border: 1px solid #000000;
+    }
+    .line3 {
+        position: absolute;
+        width: 26px;
+        height: 0px;
+        left: 21px;
+        top: 36px;
+
+        background: #000000;
+        opacity: 0.5;
+        border: 1px solid #000000;
+    }
+    .line4 {
+        position: absolute;
+        width: 26px;
+        height: 0px;
+        left: 21px;
+        top: 44px;
+        background: #000000;
+        opacity: 0.5;
+        border: 1px solid #000000;
+    }
+    
+    .conteiner {
+        display: grid;
+        position: absolute;
+        grid-template-columns: 190px 190px;
+        grid-template-rows: 90px 90px 90px 90px;
+        grid-gap: 13px;
+        padding: 10px 20px;
+        width: 428px;
+        height: 426px;
+        top: 40px;
+        
+    }
+
+    
+    .bebra4 {
+        grid-column: 2/2;
+        grid-row: 2/4;
+    }
+
+    .bebra2 {
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    
+    .bebra5 {
+        grid-column: 2/2;
+        grid-row: 3/4;
+    }
+
+    .bebra6 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .bebra7 {
+        grid-column: 2/2;
+        grid-row: 4/4;
+    }
+    
+    .bebra8 {
+        grid-column: 1/2;
+        grid-row: 4/4;
+    }
+
+
+}
